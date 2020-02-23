@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+
+body {
+  font-family: 'Lacquer', sans-serif;
+}
+
+.list-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-card section > * {
+  margin: 8px;
+}
+
+.list-card header > * {
+  margin: 8px;
+}
+
+.list-card header {
+  display: flex;
+}
+
+.list-card header input {
+  flex-basis: 90%; 
+  padding: 8px;
+}
+
+.header-button {
+  flex-basis: 10%; 
+  min-width: 96px;
+}
+
+.list-card section  {
+  display: flex;
+}
+
+.list-card section h1 {
+  border-bottom: 2px solid black;
+  flex-basis: 90%; 
+}
+
+.list-card ul {
+  list-style: none;
+  margin: 8px;
+  padding-inline-start: 0px;
+}
+
+.list-card .list-item {
+  margin-top: 8px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-card .list-item button {
+  min-width: 96px;
+}
+
+.list-card .list-item:nth-child(odd) {
+  background-color: #BBBBBB;
+}
+
+.list-card .list-item:nth-child(even) {
+  background-color: #FFFFFF;
+}
+
+.list-item-btn {
+  height: 50px;
+  width: 50px;
+  background-image: url(https://img.icons8.com/doodle/48/000000/poo--v1.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.list-card .list-item > * {
+  margin: 8px;
+}
+
+.to-drop {
+  background-color: #e57373;
+}

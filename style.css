@@ -52,6 +52,7 @@ body {
   border: 1px solid black;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .list-card .list-item button {
@@ -65,6 +66,26 @@ body {
 .list-card .list-item:nth-child(even) {
   background-color: #FFFFFF;
 }
+
+.list-card .list-item .list-item-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.list-card .list-item .list-item-info img{
+  max-height: 150px;
+}
+
+.list-card .list-item .list-item-info .list-item-text-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.list-card .list-item .list-item-info .list-item-text-container .list-item-text{
+  margin: 8px;
+}
+
 
 .list-item-btn {
   height: 50px;
